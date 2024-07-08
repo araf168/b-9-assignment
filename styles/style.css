@@ -87,11 +87,79 @@ h1 {
     font-size: 48px;
     font-weight: 700;
 }
-.image-container{
+
+.image-container {
     width: 802.9px;
-height: 500px;
+    height: 500px;
 }
-.image-container img{
+
+.image-container img {
     width: 100%;
-height: 100%;
-} 
+    height: 100%;
+}
+
+/* midnight-party-container-style */
+
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../images/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.leftside-content {
+    width: 50%;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.leftside-content h2 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.rightside-content {
+    width: 50%;
+    height: 600px;
+    
+}
+
+#midnight-btn {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.rightside-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside-content img{
+    width: 349.16px;
+height: 464.65px;
+}
